@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Hover Effect</title>
+
+<style>
+
+h2 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: white;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    transition: transform 0.3s ease, box-shadow 0.3s ease ;
+}
+
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    color:white;
+}
+
+#Follow {
+
+background-color: skyblue;
+font-size: 20px;
+font-weight: 600;
+border-radius: 10px;
+
+padding: 5px;
+
+
+
+}
+
+a{
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1rem;
+    color: black;
+    border-radius: 0px;
+
+
+}
+
+a:hover{
+
+    transform: scale(1.05) rotate(5deg);
+    
+    color:white;
+
+    
+
+}
+
+h2{
+
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #200728;
+
+}
+
+p{
+
+    color: #6e6363;
+   font-weight: 500px;
+   font-size: 14px;
+
+}
+
+</style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <img src="ali._imtiyaz.png" alt="imtiyaz khan">
+            <h2>Imtiyaz Ali Khan</h2>
+            <p>For improving your web development skills </p>
+        <button id="Follow"><a href="https://www.instagram.com/ali._imtiyaz/">Follow</a></button>
+        </div>
+    </div>
+
+</body>
+</html>
